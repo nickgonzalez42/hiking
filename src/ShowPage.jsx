@@ -33,7 +33,7 @@ export function ShowPage(props) {
   return (
     <>
       <h1>{props.currentHike.name}</h1>
-      <img href={props.currentHike.thumbnail} />
+      <img src={props.currentHike.thumbnail} />
       <p>Length: {props.currentHike.length}</p>
       <p>Description: {props.currentHike.description}</p>
       <p>City: {props.currentHike.city}</p>
