@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { ShowPage } from "./ShowPage";
 
@@ -33,13 +33,7 @@ const sampleHike = {
 };
 
 function App() {
-  const [currenthike, setCurrentHike] = useState(sampleHike);
-
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
-  );
+  return <ShowPage currentHike={sampleHike} />;
 }
 
 export default App;
