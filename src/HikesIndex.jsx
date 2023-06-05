@@ -1,7 +1,7 @@
 export function HikesIndex() {
   return (
     <div>
-      <h1>All photos</h1>
+      <h1>All hikes</h1>
     </div>
   );
 }
