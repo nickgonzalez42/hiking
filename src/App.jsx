@@ -1,12 +1,10 @@
-import { useState } from "react";
+import { Content } from "./Content";
 import "./App.css";
 
 function App() {
-  const [currenthike, setCurrentHike] = useState(sampleHike);
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Content />
     </>
   );
 }
