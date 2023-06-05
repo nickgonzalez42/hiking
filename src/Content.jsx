@@ -2,7 +2,7 @@ import { HikesIndex } from "./HikesIndex";
 
 export function Content() {
   
-  const hikes = {
+  const hikes = [{
     id: 1,
     name: "The 606",
     length: "2.7 miles",
@@ -30,7 +30,7 @@ export function Content() {
         comment: "Got demolished by Lime Scooter user. Could be better.",
       },
     ],
-  };
+  }];
   
   return (
     <div>
